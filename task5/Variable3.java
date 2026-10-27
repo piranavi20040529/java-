@@ -5,13 +5,7 @@ class Variable3{
 		lname="Thillainathan";
 		
 		System.out.println("First Name: " +fname);
-		System.out.println("last
-
-
-
-
-		Name: " +lname);
-		
+		System.out.println("lastName: " +lname);
 		System.out.println("Full Name: " +fname +" " +lname);
 	}
 }
