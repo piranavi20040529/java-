@@ -3,7 +3,7 @@ class UserInput{
 	public static void main(String args[]){
 		Scanner scan = new Scanner(System.in);
 		String name= "" ;
-		System.out.println("Please your name is : " + name);
+		System.out.println("Please enter  your name : " + name);
 		name = scan.next();
 		System.out.println("*******");
 		
