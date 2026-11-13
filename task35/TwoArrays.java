@@ -12,19 +12,11 @@ class TwoArrays{
 			x[4][0] =90 ;
 			x[4][1] =100 ;
 			
-			System.out.println(x[0][0]);
-			System.out.println(x[0][1]);
-			System.out.println();
-			System.out.println(x[1][0]);
-			System.out.println(x[1][1]);
-			System.out.println();
-			System.out.println(x[2][0]);
-			System.out.println(x[2][1]);
-			System.out.println();
-			System.out.println(x[3][0]);
-			System.out.println(x[3][1]);
-			System.out.println();
-			System.out.println(x[4][0]);
-			System.out.println(x[4][1]);
+			for(int i = 0; i<= 4; i++){
+				for(int j = 0; j<= 1; j++){
+					System.out.println(x[i][j]);
+				}
+			System.out.println("");
+			}
 	}
 }
